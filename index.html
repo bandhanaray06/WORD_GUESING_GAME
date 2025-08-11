@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD GUESSING GAME</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>GUESS THE WORD</h1>
+            <div class="container">
+                <div class="gameCards">
+                    <div class="cards action" data-option="Animals">
+                        <i class="fa-solid fa-paw"></i>
+                        Animals
+                    </div>
+                    <div class="cards" data-option="Foods">
+                        <i class="fa-solid fa-utensils"></i>
+                        Foods
+                    </div>
+                    <div class="cards" data-option="Sports">
+                        <i class="fa-solid fa-medal"></i>
+                        Sports
+                    </div>
+                </div>
+                <div class="playground">
+                    <h2 class="questionHint"></h2>
+                    <br/>
+                    <div class="questionProgress">
+                    </div>
+                    <div class="selectedWords">
+                    </div>
+                    <div class="shuffleWords"> 
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="startGame">Start Game</button>
+                    <button class="resetGame">Reset Game</button>
+                </div>
+            </div>
+<script src="script.js"></script>
+</body>
+</html>
